@@ -12,7 +12,7 @@
     {{-- Search Input --}}
     <div class="relative">
         <x-input
-            wire:model.live.debounce.{{ config('barangay-search.search.debounce_ms', 300) }}ms="query"
+            wire:model.live.debounce.{{ (int)  config('barangay-search.search.debounce_ms', 300)  }}ms="query"
             :placeholder="$placeholder"
             icon="o-map-pin"
             :clearable="$clearable"
