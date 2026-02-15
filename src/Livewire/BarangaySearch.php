@@ -112,7 +112,7 @@ class BarangaySearch extends Component
                 $this->errorMessage = config('barangay-search.ui.no_results_text');
             }
         } catch (GisPhException $e) {
-            $this->errorMessage = 'Failed to search barangays. Please try again.';
+            $this->errorMessage = 'Failed to Barangay Searchs. Please try again.';
             $this->results = [];
             $this->dispatch('barangay-search-error', error: $e->getMessage());
         } finally {

@@ -1,6 +1,6 @@
-# Contributing to Laravel Search Barangay
+# Contributing to Laravel Barangay Search
 
-First off, thank you for considering contributing to Laravel Search Barangay! It's people like you that make the open-source community such an amazing place.
+First off, thank you for considering contributing to Laravel Barangay Search! It's people like you that make the open-source community such an amazing place.
 
 ## Code of Conduct
 

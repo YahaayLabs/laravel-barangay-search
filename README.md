@@ -1,4 +1,4 @@
-# Laravel Search Barangay
+# Laravel Barangay Search
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/yahaaylabs/laravel-barangay-search.svg?style=flat-square)](https://packagist.org/packages/yahaaylabs/laravel-barangay-search)
 [![Total Downloads](https://img.shields.io/packagist/dt/yahaaylabs/laravel-barangay-search.svg?style=flat-square)](https://packagist.org/packages/yahaaylabs/laravel-barangay-search)
@@ -7,7 +7,7 @@ A Laravel Livewire component for searching Philippine Barangays with optional Ma
 
 ## Features
 
-- 🔍 **Autocomplete Search** - Real-time Search Barangay with debouncing
+- 🔍 **Autocomplete Search** - Real-time Barangay Search with debouncing
 - 🎨 **Mary UI Support** - Pre-styled components using Mary UI (optional)
 - 💾 **Caching** - Intelligent caching to reduce API calls
 - 🎯 **Filtering** - Filter by municipality, city, or province

@@ -17,7 +17,7 @@ return [
     | Cache Configuration
     |--------------------------------------------------------------------------
     |
-    | Configure caching for Search Barangay results to reduce API calls
+    | Configure caching for Barangay Search results to reduce API calls
     |
     */
     'cache' => [

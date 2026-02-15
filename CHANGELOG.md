@@ -6,7 +6,7 @@ All notable changes to `laravel-barangay-search` will be documented in this file
 
 ### Added
 - Initial release
-- Livewire 3 component for Search Barangay
+- Livewire 3 component for Barangay Search
 - Integration with GIS.PH SDK
 - Mary UI support
 - Vanilla styling option
