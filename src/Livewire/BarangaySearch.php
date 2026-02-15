@@ -165,6 +165,8 @@ class BarangaySearch extends Component
      */
     public function render()
     {
-        return view('barangay-search::livewire.barangay-search');
+        return view('barangay-search::livewire.barangay-search', [
+            'useMaryUi' => config('barangay-search.ui.use_mary_ui', true)
+        ]);
     }
 }
