@@ -34,6 +34,8 @@ class BarangaySearch extends Component
     public string $containerClass = '';
     public string $inputClass = '';
 
+    public int $debounce;
+
     protected BarangayService $barangayService;
 
     /**
@@ -67,6 +69,7 @@ class BarangaySearch extends Component
         $this->required = $required;
         $this->clearable = $clearable;
         $this->hint = $hint;
+        $this->debounce = config('barangay-search.search.debounce_ms', 300);
 
         // If selected is already set, populate the query
         if ($this->selected && is_array($this->selected)) {

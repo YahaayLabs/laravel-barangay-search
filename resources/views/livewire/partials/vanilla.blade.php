@@ -21,7 +21,7 @@
             
             <input
                 type="text"
-                wire:model.live.debounce.{{ (int)  config('barangay-search.search.debounce_ms', 300)  }}ms="query"
+                wire:model.live.debounce.{{ $debounce }}ms="query"
                 placeholder="{{ $placeholder }}"
                 class="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 {{ $inputClass }}"
                 wire:loading.class="opacity-50"
