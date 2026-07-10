@@ -22,6 +22,22 @@ A Laravel Livewire component for searching Philippine Barangays with optional Ma
 - Livewire 3.x
 - [GIS.PH API Key](https://gis.ph)
 
+## Demo
+
+A checkout-style Livewire playground ships in **`playground/`** (title + GitHub URL, same spirit as the Vue / web-component demos):
+
+```bash
+cd playground
+composer install
+cp .env.template .env   # set GISPH_API_KEY=gis_sk_…
+php artisan key:generate
+php artisan serve
+# → http://127.0.0.1:8000
+```
+
+Env reference: [playground/.env.template](./playground/.env.template) · host apps: [.env.template](./.env.template)  
+See [playground/README.md](./playground/README.md).
+
 ## Installation
 
 ### 1. Install via Composer

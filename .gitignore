@@ -1,4 +1,8 @@
 /vendor/
+/playground/vendor/
+/playground/node_modules/
+/playground/.env
+/playground/storage/*.key
 node_modules/
 npm-debug.log
 yarn-error.log
